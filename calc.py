@@ -1,0 +1,39 @@
+import math
+easier = 'enter your'
+grd= 'grade'
+maths1 = input(f'{easier} maths1 {grd}: ')
+maths2 = input(f'{easier} maths2 {grd}: ')
+#maths3 = input(f'{easier} maths3 {grd}: ')
+physics1 =input(f'{easier} physics1 {grd}: ')
+physics2 =input(f'{easier} physics2 {grd}: ')
+biology1 = input(f'{easier} biology1 {grd}: ')
+biology2 = input(f'{easier} biology2 {grd}: ')
+ei1 = input(f'{easier} ei1 {grd}: ')
+ei2 = input(f'{easier} ei2 {grd}: ')
+ei3 = input(f'{easier} ei3 {grd}: ')
+hg1 = input(f'{easier} hg1 {grd}: ')
+hg2 = input(f'{easier} hg2 {grd}: ')
+french1 = input(f'{easier} french1 {grd}: ')
+french2 = input(f'{easier} french2 {grd}: ')
+#french3 = input(f'{easier} french3 {grd}: ')
+arab1 = input(f'{easier} arab1 {grd}: ')
+arab2 = input(f'{easier} arab2 {grd}: ')
+#arab3 = input(f'{easier} arab3 {grd}: ')
+english = input(f'{easier} english {grd}: ')
+philosofy = input(f'{easier} philosofy {grd}: ')
+pe = input(f'{easier} pe {grd}: ')
+discipline = input(f'{easier} discipline {grd}: ')
+
+maths = ((int(maths1) + int(maths2) ) / 2 ) * 9
+physics = ((int(physics1) + int(physics2) ) / 2 ) * 7
+biology = ((int(biology1) + int(biology2) ) / 2 ) * 3
+ei = ((int(ei1) + int(ei2) + int(ei3) ) / 3 ) * 2
+hg = ((int(hg1) + int(hg2) ) / 2 ) * 2
+french = ((int(french1) + int(french2) ) / 2 ) * 4
+arab = ((int(arab1) + int(arab2) ) / 2 ) * 2
+english = int(english) * 2
+philosofy=int(philosofy) * 2
+pe = int(pe)
+discipline = int(discipline)
+grade = (maths + physics + ei + biology + hg + french + arab + english + philosofy + pe + discipline ) / 35
+print(grade)
