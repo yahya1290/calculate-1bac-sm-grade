@@ -24,16 +24,16 @@ philosofy = input(f'{easier} philosofy {grd}: ')
 pe = input(f'{easier} pe {grd}: ')
 discipline = input(f'{easier} discipline {grd}: ')
 
-maths = ((int(maths1) + int(maths2) ) / 2 ) * 9
-physics = ((int(physics1) + int(physics2) ) / 2 ) * 7
-biology = ((int(biology1) + int(biology2) ) / 2 ) * 3
-ei = ((int(ei1) + int(ei2) + int(ei3) ) / 3 ) * 2
-hg = ((int(hg1) + int(hg2) ) / 2 ) * 2
-french = ((int(french1) + int(french2) ) / 2 ) * 4
-arab = ((int(arab1) + int(arab2) ) / 2 ) * 2
-english = int(english) * 2
-philosofy=int(philosofy) * 2
-pe = int(pe)
-discipline = int(discipline)
+maths = ((float(maths1) + float(maths2) ) / 2 ) * 9
+physics = ((float(physics1) + float(physics2) ) / 2 ) * 7
+biology = ((float(biology1) + float(biology2) ) / 2 ) * 3
+ei = ((float(ei1) + float(ei2) + float(ei3) ) / 3 ) * 2
+hg = ((float(hg1) + float(hg2) ) / 2 ) * 2
+french = ((float(french1) + float(french2) ) / 2 ) * 4
+arab = ((float(arab1) + float(arab2) ) / 2 ) * 2
+english = float(english) * 2
+philosofy=float(philosofy) * 2
+pe = float(pe)
+discipline = float(discipline)
 grade = (maths + physics + ei + biology + hg + french + arab + english + philosofy + pe + discipline ) / 35
 print(grade)
